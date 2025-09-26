@@ -96,7 +96,7 @@ export const translations = {
     type: 'Type',
     modified: 'Modified',
     view: 'View',
-    poweredBy: 'JSC "TransTelecom" • For AFM KNB',
+    poweredBy: 'JSC "TransTelecom" • All data is fictional and legal until the time of production',
     language: 'Language',
     theme: 'Theme',
     
