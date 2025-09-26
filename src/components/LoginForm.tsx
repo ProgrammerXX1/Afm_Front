@@ -36,7 +36,7 @@ const LoginForm: React.FC = () => {
       legalTitle: 'Правовая Система Казахстана',
       legalSubtitle: 'Искусственный интеллект в служении правосудия',
       projectCreators: 'АО "ТрансТелеком"',
-      forMilitary: 'Для военных частей АФМ КНБ',
+      forMilitary: 'Все данные выдуманные и носят правовой характер до момента продакшена',
       casesProcessed: 'Дел обработано',
       judgesInSystem: 'Судей в системе', 
       aiAccuracy: 'Точность ИИ',
