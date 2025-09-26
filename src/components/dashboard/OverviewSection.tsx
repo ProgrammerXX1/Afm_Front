@@ -63,19 +63,7 @@ export default function OverviewSection({ selectedCase, casesData, onCaseChange,
 
   return (
     <div className="space-y-6">
-      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-        <h1 className="text-2xl sm:text-3xl text-ttc-gradient">{t.dashboardOverview}</h1>
-        <div className="flex gap-2">
-          <Button variant="outline" onClick={() => onNavigate?.('cases')} className="w-full sm:w-auto">
-            <Users className="w-4 h-4 mr-2" />
-            {language === 'ru' ? 'Управление Делами' : 'Case Management'}
-          </Button>
-          <Button onClick={() => onNavigate?.('aiSystem')} className="w-full sm:w-auto">
-            <Brain className="w-4 h-4 mr-2" />
-            {language === 'ru' ? 'ИИ Система' : 'AI System'}
-          </Button>
-        </div>
-      </div>
+     
 
       {/* Overview Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
